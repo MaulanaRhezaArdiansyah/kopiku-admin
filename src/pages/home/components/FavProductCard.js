@@ -55,7 +55,8 @@ export const FavProductCard = (props) => {
                 <div className="card-img-1">
                   <img
                     // src={require("../../../assets/img/hazelnut-latte.webp")}
-                    src={`http://localhost:3000/uploads/images/${img}`}
+                    // src={`http://localhost:3000/uploads/images/${img}`}
+                    src={`https://kopiku-admin.vercel.app/uploads/images/${img}`}
                     className="rounded-full"
                     alt=""
                   />
