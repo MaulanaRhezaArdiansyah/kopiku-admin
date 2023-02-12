@@ -63,7 +63,8 @@ export default function Carousel() {
                         `http://localhost:3000/public/${i.avatar}`
                       )}
                       <img
-                        src={`http://localhost:3000/uploads/images/${i.avatar}`}
+                        // src={`http://localhost:3000/uploads/images/${i.avatar}`}
+                        src={`https://kopiku-admin.vercel.app/uploads/images/${i.avatar}`}
                         //   src={require("../../../assets/img/viezh-robert.webp")}
                         alt=""
                         className="grow-1 pr-4"
